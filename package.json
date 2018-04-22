@@ -1,0 +1,33 @@
+{
+  "name": "observ-yo-yo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "start": "budo example/index.js",
+    "test:deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test:lint": "standard",
+    "test:node": "NODE_ENV=test tape t/*.js",
+    "test": "npm-run-all -s test:lint test:node"
+  },
+  "standard": {
+    "ignore": [
+      "t/"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "defined": "^1.0.0",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "budo": "^11.2.0",
+    "dependency-check": "^3.1.0",
+    "npm-run-all": "^4.1.2",
+    "standard": "^11.0.1",
+    "tape": "^4.9.0",
+    "yo-yo": "^1.4.1"
+  }
+}
