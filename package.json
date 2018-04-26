@@ -1,6 +1,6 @@
 {
   "name": "pochi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "start.js",
   "scripts": {
@@ -15,8 +15,8 @@
       "t/"
     ]
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["inu", "tom"],
+  "author": "ishiduca@gmail.com",
   "license": "ISC",
   "dependencies": {
     "defined": "^1.0.0",
